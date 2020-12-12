@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio | HelaWeb Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--    css-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="icon" type="image/png" href="images/helawebdesign-logo-1024x1024.png">
+
+</head>
+<body>
+
+<div id="pre" style="z-index: 99999999">
+    <div class="content">
+        <div class="planet">
+            <div class="ring"></div>
+            <div class="cover-ring"></div>
+            <div class="spots">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+        </div>
+        <p id="load">loading</p>
+    </div>
+
+</div>
+
+
+<div id="main">
+
+    <!-- The overlay -->
+    <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                    <div>
+                        <h1 class="title">Special Discounts for e-Commerce websites</h1>
+                        <h1 class="text-danger" id="hurry" >Hurry up !!!</h1>
+                        <div class="d-flex flex-column align-items-center">
+                            <a href="contact.html" class="nav-link">
+                                <div class="title-badge rounded-pill more extra">Contact us</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <!--                    <img src="images/overlay.png" alt="">-->
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="hero" class="container-fluid">
+        <div class="container-fluid" id="navbar">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light pt-lg-5 pt-sm-0">
+                    <a class="navbar-brand" href="/">
+
+                        <img src="images/helawebdesign-logo-1024x1024.png" width="70" height="70" alt="" loading="lazy"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+<!--                        <span class="navbar-toggler-icon"></span>-->
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                             width="26" height="26"
+                             viewBox="0 0 172 172"
+                             style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M14.33333,35.83333v14.33333h143.33333v-14.33333zM14.33333,78.83333v14.33333h143.33333v-14.33333zM14.33333,121.83333v14.33333h143.33333v-14.33333z"></path></g></g></svg>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item d-flex flex-column justify-content-center">
+                                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item d-flex flex-column justify-content-center">
+                                <a class="nav-link" href="services.html">Services</a>
+                            </li>
+                            <li class="nav-item d-flex flex-column justify-content-center">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item d-flex flex-column justify-content-center">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item d-flex flex-column justify-content-center">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+
+
+                            <li>
+                                <a id="ham" onclick="openNav()" class="axil-menuToggle ax-hamburger-trigger"
+                                   id="side-nav-toggler" href="#">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid my-5">
+        <div class="container">
+
+            <div class="row my-5 text-center d-flex flex-column align-items-center">
+                <div class="text-center">
+                    <h1 class="title text-center">Our previous works</h1>
+                    <h3>Your satisfaction is our satisfaction!</h3>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="row extra-margin" id="projects-render">
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">Our aim to offer our customers a variety of the latest websites, web apps
+                        with latest technologies. We’ve come a long way,
+                        so we know exactly which direction to take when supplying you with high quality yet
+                        budget-friendly products.</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <!--                    <h6>Categories</h6>-->
+                    <!--                    <ul class="footer-links">-->
+                    <!--                        <li><a href="http://scanfcode.com/category/c-language/">C</a></li>-->
+                    <!--                        <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>-->
+                    <!--                        <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>-->
+                    <!--                        <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>-->
+                    <!--                        <li><a href="http://scanfcode.com/category/android/">Android</a></li>-->
+                    <!--                        <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>-->
+                    <!--                    </ul>-->
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by
+                        <a href="/">HelaWebDesign.com</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="https://www.facebook.com/helawebdesign" target="_blank"><img
+                                src="images/social/facebook.png" alt=""></a></li>
+                        <!--                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>-->
+                        <!--                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>-->
+                        <!--                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="scroll-to-top">
+        <a href="#hero"><img src="images/scroll-top.png" alt=""></a>
+    </div>
+</div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+
+    </script>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/5f784564f0e7167d0015d5d7/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+</body>
+</html>
